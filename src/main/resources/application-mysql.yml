@@ -14,7 +14,7 @@ spring:
     # Windows
     url : jdbc:mysql://localhost:3306/PETCLINIC_DB?useSSL=false&serverTimezone=UTC
     username : root
-    password :
+    password : Kenma74R
 
     platform : mysql
     initialization-mode : always
@@ -35,9 +35,9 @@ logging :
   pattern :
   # Logging pattern for the console : IT IS OK
   # console : %d{yy-MM-dd HH:mm:ss} - %logger{36} - %msg%n
-  
+
   # Logging pattern for file : DONT WORK, DISABLE WRITE FILE LOG
   # file : %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%
 
 server :
-  port : 8080
+  port : 8085
