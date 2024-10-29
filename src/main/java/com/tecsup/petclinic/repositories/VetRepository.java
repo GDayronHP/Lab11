@@ -12,6 +12,8 @@ import com.tecsup.petclinic.entities.Vet;
 public interface VetRepository extends JpaRepository<Vet, Integer> {
 
     // Fetch vets by last name
+    List<Vet> findByFirstName(String firstName);
+
     List<Vet> findByLastName(String lastName);
 
     // Fetch all vets
